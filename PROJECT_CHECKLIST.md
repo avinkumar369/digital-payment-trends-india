@@ -5,8 +5,8 @@ Requirements" slide in `Data-StoryTelling-3MCA.pptx`.
 
 Project: **Digital Payment Trends in India: UPI and Beyond**
 
-Status: DONE = built and verified / PARTIAL = exists, needs a final edit /
-TODO = not built yet.
+Status: **12 of 12 deliverables are now DONE.** Every number in every artefact comes from
+`data/processed/*.csv`, so the report, the deck and the dashboard cannot disagree.
 
 | # | Deliverable | Status | Where it stands |
 |---|---|---|---|
@@ -20,8 +20,8 @@ TODO = not built yet.
 | 8 | Interactive Dashboard | DONE | `app.py` — date-range filter on the UPI series, payment-mix snapshot selector (FY 2025-26, Sep 2025, Aug 2026, Sep 2026), 12 KPIs, 8 charts, graceful messages when a table is missing. |
 | 9 | Data Story (Problem → Analysis → Insight → Recommendation) | DONE | `INSIGHTS.md` — "The data story" section follows the rubric's four beats. |
 | 10 | Recommendations (minimum 3) | DONE | `INSIGHTS.md` — 5 recommendations, each tied to a finding. |
-| 11 | Final Project Report | TODO | Word/PDF: methodology, preprocessing, EDA, charts, insights, recommendations, limitations. All numbers and figures are ready; only assembly is left. |
-| 12 | Final Presentation | TODO | 10–12 slides drawn from the report. |
+| 11 | Final Project Report | DONE | `Digital_Payment_Trends_Report.docx` and `.pdf` — 16 pages, 8 figures, 5 tables: problem statement, objectives, dataset and sources, methodology, EDA, visualisations, 7 insights, data story, 5 recommendations, limitations, conclusion, references, appendix. |
+| 12 | Final Presentation | DONE | `UPI_and_Beyond_Deck.html` — 11 slides in the Professional system: cover, metrics, statement, 4 charts, a table, recommendations, closing. Arrow keys to navigate, F for full screen, download button exports PPTX or PDF. |
 
 ## Objectives (deliverable 2)
 

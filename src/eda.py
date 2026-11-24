@@ -60,6 +60,9 @@ def correlation_matrix(df: pd.DataFrame) -> pd.DataFrame:
 def _slice(instruments: pd.DataFrame, period: str, codes: list[str] | None = None) -> pd.DataFrame:
     codes = codes or RETAIL_CODES
     sub = instruments[(instruments["period"] == period) & (instruments["code"].isin(codes))].copy()
+    # code '1' matches both 'CCIL Operated Systems' and 'Credit Transfers - RTGS'
+    ccil = (sub["code"] == "1") & (~sub["instrument"].str.contains("RTGS", case=False, na=False))
+    sub = sub[~ccil]
     sub["label"] = sub["code"].map(LABELS).fillna(sub["instrument"])
     return sub
 

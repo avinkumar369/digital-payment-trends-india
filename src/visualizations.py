@@ -78,6 +78,11 @@ def latest_period(df: pd.DataFrame) -> str | None:
 def _slice(df: pd.DataFrame, period: str, codes: list[str]) -> pd.DataFrame:
     """Rows for one period, restricted to the curated codes, in a stable order."""
     sub = df[(df["period"] == period) & (df["code"].isin(codes))].copy()
+    # code '1' matches two rows: 'CCIL Operated Systems' and 'Credit Transfers -
+    # RTGS'. Only RTGS is a payment instrument, so drop the CCIL row.
+    if "instrument" in sub.columns:
+        ccil = (sub["code"] == "1") & (~sub["instrument"].str.contains("RTGS", case=False, na=False))
+        sub = sub[~ccil]
     sub["label"] = sub["code"].map(LABELS).fillna(sub["instrument"])
     sub["order"] = sub["code"].map({c: i for i, c in enumerate(codes)})
     return sub.sort_values("order").reset_index(drop=True)
