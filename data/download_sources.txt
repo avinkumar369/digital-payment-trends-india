@@ -1,0 +1,12 @@
+NPCI UPI Product Statistics:
+https://www.npci.org.in/product/upi/product-statistics
+
+RBI Payment System Indicators:
+https://www.rbi.org.in/Scripts/PSIUserView.aspx?Id=64
+
+Dataset notes:
+NPCI provides monthly UPI transaction volume (million) and transaction value (₹ crore).
+
+RBI provides monthly payment system indicators, including volume (lakh) and value (₹ crore).
+
+Data source: Official NPCI and RBI websites.

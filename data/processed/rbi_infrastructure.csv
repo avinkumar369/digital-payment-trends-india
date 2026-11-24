@@ -1,0 +1,53 @@
+period,metric,value_lakh,period_label
+2026-03,Number of Cards,11632.02,Mar 2026
+2025-09,Number of Cards,11383.16,Sep 2025
+2026-08,Number of Cards,11608.32,Aug 2026
+2026-09,Number of Cards,11650.16,Sep 2026
+2026-03,Credit Cards,1186.34,Mar 2026
+2025-09,Credit Cards,1135.07,Sep 2025
+2026-08,Credit Cards,1240.04,Aug 2026
+2026-09,Credit Cards,1253.15,Sep 2026
+2026-03,Debit Cards,10445.69,Mar 2026
+2025-09,Debit Cards,10248.09,Sep 2025
+2026-08,Debit Cards,10368.29,Aug 2026
+2026-09,Debit Cards,10397.01,Sep 2026
+2026-03,Number of PPIs,22992.54,Mar 2026
+2025-09,Number of PPIs,16180.4,Sep 2025
+2026-08,Number of PPIs,23320.35,Aug 2026
+2026-09,Number of PPIs,23635.71,Sep 2026
+2026-03,Wallets,18253.41,Mar 2026
+2025-09,Wallets,11478.95,Sep 2025
+2026-08,Wallets,18389.26,Aug 2026
+2026-09,Wallets,18660.03,Sep 2026
+2026-03,Cards,4739.13,Mar 2026
+2025-09,Cards,4701.45,Sep 2025
+2026-08,Cards,4931.09,Aug 2026
+2026-09,Cards,4975.68,Sep 2026
+2026-03,Number of ATMs and CRMs,2.54,Mar 2026
+2025-09,Number of ATMs and CRMs,2.49,Sep 2025
+2026-08,Number of ATMs and CRMs,2.53,Aug 2026
+2026-09,Number of ATMs and CRMs,2.52,Sep 2026
+2026-03,Bank owned ATMs and CRMs,2.16,Mar 2026
+2025-09,Bank owned ATMs and CRMs,2.12,Sep 2025
+2026-08,Bank owned ATMs and CRMs,2.17,Aug 2026
+2026-09,Bank owned ATMs and CRMs,2.17,Sep 2026
+2026-03,White Label ATMs,0.38,Mar 2026
+2025-09,White Label ATMs,0.37,Sep 2025
+2026-08,White Label ATMs,0.36,Aug 2026
+2026-09,White Label ATMs,0.36,Sep 2026
+2026-03,Number of Micro ATMs,13.9,Mar 2026
+2025-09,Number of Micro ATMs,14.6,Sep 2025
+2026-08,Number of Micro ATMs,13.26,Aug 2026
+2026-09,Number of Micro ATMs,13.33,Sep 2026
+2026-03,Number of PoS Terminals,117.69,Mar 2026
+2025-09,Number of PoS Terminals,121.16,Sep 2025
+2026-08,Number of PoS Terminals,102.08,Aug 2026
+2026-09,Number of PoS Terminals,104.19,Sep 2026
+2026-03,Bharat QR,56.33,Mar 2026
+2025-09,Bharat QR,60.71,Sep 2025
+2026-08,Bharat QR,53.3,Aug 2026
+2026-09,Bharat QR,53.4,Sep 2026
+2026-03,UPI QR,7612.17,Mar 2026
+2025-09,UPI QR,7089.75,Sep 2025
+2026-08,UPI QR,8130.32,Aug 2026
+2026-09,UPI QR,8855.05,Sep 2026
